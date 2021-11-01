@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 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
+  github_token: $GITHUB_TOKEN
   keep_history: true
   on:
     branch: main

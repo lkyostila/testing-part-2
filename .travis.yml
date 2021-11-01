@@ -1,3 +1,10 @@
 language: node_js
 rvm:
  - 16.13.0
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  keep_history: true
+  on:
+    branch: main

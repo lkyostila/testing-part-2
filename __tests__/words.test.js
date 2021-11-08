@@ -1,36 +1,6 @@
-import words from "../kirjasto/src/words";
+import words from "../library/src/words";
+import { WORDS as PARAM_WORDS, randomSeed } from "../stringutil";
 
-const PARAM_WORDS = [
-  "Lorem",
-  "ipsum",
-  "dolor",
-  "sit",
-  "amet",
-  "consectetur",
-  "adipiscing",
-  "elit",
-  "Duis",
-  "varius",
-  "augue",
-  "eget",
-  "velit",
-  "varius",
-  "nec",
-  "placerat",
-  "risus",
-  "viverra",
-  "Cras",
-  "porttitor",
-];
-
-// Reproducable pseudo-randomness.
-// Source: https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript/23304189#23304189
-const randomSeed = function (s) {
-  return function () {
-    s = Math.sin(s) * 10000;
-    return s - Math.floor(s);
-  };
-};
 const testRandom = randomSeed(1);
 
 describe("Unit tests for words.js", () => {

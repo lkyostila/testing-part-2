@@ -1,4 +1,4 @@
-import defaultToAny from "../kirjasto/src/defaultToAny";
+import defaultToAny from "../library/src/defaultToAny";
 
 describe("Unit tests for defaultToAny.js: receives multiple default values and returns the first one that is not `NaN`, `null`, or `undefined`.", () => {
   test("A finite number.", () => {
@@ -19,5 +19,4 @@ describe("Unit tests for defaultToAny.js: receives multiple default values and r
   test("All the values are indeterminate.", () => {
     expect(defaultToAny(undefined, null, NaN)).toBe(NaN);
   });
-;
 });

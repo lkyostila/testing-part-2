@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1636472187945" clover="3.2.0">
+  <project timestamp="1636472187945" name="All files">
+    <metrics statements="209" coveredstatements="159" conditionals="190" coveredconditionals="89" methods="31" coveredmethods="19" elements="430" coveredelements="267" complexity="0" loc="209" ncloc="209" packages="3" files="30" classes="30"/>
+    <package name="testing-part-2">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="stringutil.js" path="/home/pazu/Workspaces/koulu/testing-part-2/stringutil.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="39" type="stmt"/>
+        <line num="29" count="39" type="stmt"/>
+      </file>
+    </package>
+    <package name="testing-part-2.library.src">
+      <metrics statements="87" coveredstatements="51" conditionals="120" coveredconditionals="54" methods="17" coveredmethods="12"/>
+      <file name="defaultTo.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/defaultTo.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="20" count="12" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="defaultToAny.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/defaultToAny.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="29" count="6" type="stmt"/>
+      </file>
+      <file name="isArguments.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isArguments.js">
+        <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="isArrayLike.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isArrayLike.js">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="27" count="3" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="isBuffer.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isBuffer.js">
+        <metrics statements="6" coveredstatements="6" conditionals="17" coveredconditionals="14" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="isEmpty.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isEmpty.js">
+        <metrics statements="14" coveredstatements="3" conditionals="19" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="46" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="9"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="isLength.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isLength.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="isObject.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isObject.js">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="isObjectLike.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isObjectLike.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="isSymbol.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isSymbol.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="2" falsecount="2"/>
+      </file>
+      <file name="isTypedArray.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/isTypedArray.js">
+        <metrics statements="5" coveredstatements="3" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="slice.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/slice.js">
+        <metrics statements="16" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="toFinite.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/toFinite.js">
+        <metrics statements="9" coveredstatements="8" conditionals="12" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="29" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="toNumber.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/toNumber.js">
+        <metrics statements="18" coveredstatements="14" conditionals="22" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="45" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="upperFirst.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/upperFirst.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="words.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/words.js">
+        <metrics statements="7" coveredstatements="6" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="59" type="stmt"/>
+        <line num="31" count="59" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="59" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="testing-part-2.library.src..internal">
+      <metrics statements="117" coveredstatements="103" conditionals="70" coveredconditionals="35" methods="12" coveredmethods="5"/>
+      <file name="arrayReduce.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/arrayReduce.js">
+        <metrics statements="7" coveredstatements="6" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+      </file>
+      <file name="asciiToArray.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/asciiToArray.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="castSlice.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/castSlice.js">
+        <metrics statements="3" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+      <file name="createCaseFirst.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/createCaseFirst.js">
+        <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="101" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="100" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="100" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="100" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="100" type="stmt"/>
+      </file>
+      <file name="freeGlobal.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/freeGlobal.js">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="getTag.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/getTag.js">
+        <metrics statements="4" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="hasUnicode.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/hasUnicode.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="32" count="100" type="stmt"/>
+      </file>
+      <file name="isPrototype.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/isPrototype.js">
+        <metrics statements="4" coveredstatements="1" conditionals="5" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="nodeTypes.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/nodeTypes.js">
+        <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="17" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="19" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="root.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/root.js">
+        <metrics statements="3" coveredstatements="3" conditionals="12" coveredconditionals="6" methods="0" coveredmethods="0"/>
+        <line num="6" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="3"/>
+      </file>
+      <file name="stringToArray.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/stringToArray.js">
+        <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="unicodeToArray.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/unicodeToArray.js">
+        <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="unicodeWords.js" path="/home/pazu/Workspaces/koulu/testing-part-2/library/src/.internal/unicodeWords.js">
+        <metrics statements="43" coveredstatements="42" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

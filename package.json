@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest --verbose",
-    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test:coverage": "jest --coverage && --coverageReporters=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",

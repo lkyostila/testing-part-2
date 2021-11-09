@@ -1,6 +1,7 @@
 # Student template
 
 [![Coverage Status](https://coveralls.io/repos/github/lkyostila/testing-part-2/badge.svg?branch=main)](https://coveralls.io/github/lkyostila/testing-part-2?branch=main)
+[![Build Status](https://app.travis-ci.com/lkyostila/testing-part-2.svg?branch=main)](https://app.travis-ci.com/lkyostila/testing-part-2)
 
 ## Purpose of this repository
 

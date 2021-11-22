@@ -8,9 +8,9 @@ describe("Unit tests for isEmpty.js", () => {
     expect(isEmpty(true)).toBe(true);
   });
   test("Returns true on an integer value", () => {
-    expect(isEmpty(null)).toBe(true);
+    expect(isEmpty(12)).toBe(true);
   });
-  test("Returns false on an value", () => {
+  test("Returns false on an array value", () => {
     expect(isEmpty([4, 1, 3, 7])).toBe(false);
   });
   test("Returns false on a string value", () => {

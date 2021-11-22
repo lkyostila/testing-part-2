@@ -12,9 +12,6 @@ describe("Unit tests for isArrayLike.js", () => {
   test("Input a property of an object which should return true.", () => {
     expect(isArrayLike(person.firstname)).toBe(true);
   });
-  test("Input a property of an object which should return true.", () => {
-    expect(isArrayLike(person.lastname)).toBe(true);
-  });
   test("Input a string which should return true.", () => {
     expect(isArrayLike("testing")).toBe(true);
   });

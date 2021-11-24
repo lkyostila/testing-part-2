@@ -8,7 +8,7 @@
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
-at Tampere University.
+at Tampere University, Autumn 2021.
 
 The repository only contains the source code that is under testing, `package.json` skeleton
 and LICENSE file.
